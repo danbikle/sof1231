@@ -8,8 +8,6 @@ I have a a file called base.html which I see as a parent to hello.html.
 
 In hello.html I have this syntax:
 
-{% extends "base.html" %}
-
 ```
 {% extends "base.html" %}
 

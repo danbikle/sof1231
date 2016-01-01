@@ -21,7 +21,9 @@ I should see this template. This is the hello.html template.
 
 In base.html I have this syntax:
 
+```
 {% block hello %}{% endblock %}
+```
 
 It is my understanding that django should render hello.html inside of base.html
 
@@ -30,6 +32,21 @@ When I deploy my two html files, django ignores my syntax.
 Question: How to render hello.html in base.html?
 
 The files are visible inside of github:
+
+https://github.com/danbikle/sof1231/blob/master/hello/templates/base.html
+https://github.com/danbikle/sof1231/blob/master/hello/templates/hello.html
+
+Also I deployed them to heroku with these commands:
+
+```
+heroku create sof1231
+git push heroku master
+```
+
+You can see base.html deployed to https://sof1231.herokuapp.com
+
+Again,
+How to render hello.html in base.html?
 
 
 

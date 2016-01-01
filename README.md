@@ -1,3 +1,38 @@
+# sof1231
+
+Hello SOF,
+
+I am new to django and I misunderstand how to use templates.
+
+I have a a file called base.html which I see as a parent to hello.html.
+
+In hello.html I have this syntax:
+
+{% extends "base.html" %}
+
+```
+{% extends "base.html" %}
+
+{% block hello %}
+<h1>hello</h1>
+I should see this template. This is the hello.html template.
+{% endblock %}
+```
+
+In base.html I have this syntax:
+
+{% block hello %}{% endblock %}
+
+It is my understanding that django should render hello.html inside of base.html
+
+When I deploy my two html files, django ignores my syntax.
+
+Question: How to render hello.html in base.html?
+
+The files are visible inside of github:
+
+
+
 # python-getting-started
 
 A barebones Python app, which can easily be deployed to Heroku.
